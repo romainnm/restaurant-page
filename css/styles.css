@@ -1,0 +1,151 @@
+/* ------ GENERAL ------- */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+#content {
+    width:100vw;
+    height:100vh;
+    background: linear-gradient(
+                     rgba(0,0,0, .9), 
+                     rgba(0,0,0, .98)),
+                     url("../resources/img/home-img.jpeg");
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2{
+    font-family: 'Amatic SC', cursive;
+}
+
+/* ------ NAVIGATION ------- */
+#main-navigation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+#main-navigation button{
+    color:rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 2px;
+    padding: 10px 25px;
+    margin: 0 20px;
+    background-color: rgb(24, 202, 143);
+} 
+
+#main-navigation button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+
+/* ------ HOME PAGE ------- */
+#home-page-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-page-content a {
+    text-decoration: none;
+}
+#home-page-content h1 {
+    font-size: 7em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 0 25px;
+    padding: 50px 0 30px 0;
+    position: relative;
+}
+#home-page-content h1::after{
+    content:'';
+    width: 35%;
+    border-bottom: 5px solid rgb(24, 202, 143);
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#home-page-content p{
+    width: 55%;
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.35em;
+    color: rgb(185, 185, 185);
+    line-height: 1.5;
+}
+
+/* ------ MENU PAGE ------- */
+#menu-page-content{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+
+}
+
+#menu-page-content h2{
+    font-size: 4em;
+    padding: 50px 0 30px 0;
+}
+
+#menu-page-content ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-page-content .li-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted rgb(24, 202, 143);
+}
+
+.dish-name{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+}
+.dish-price{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight:bold
+}
+
+/* ------ CONTACT PAGE ------- */
+#contact-page-content{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+#contact-page-content h2{
+    font-size: 4em;
+    padding: 50px 0 30px 0;
+}
+
+#contact-page-content p{
+    padding-bottom: 25px;
+}
+
+#contact-page-content  .email>a{
+    font-weight: bolder;
+    color: rgb(24, 202, 143);
+}
+
+
+
+
+
