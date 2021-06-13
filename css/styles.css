@@ -10,7 +10,7 @@
     background: linear-gradient(
                      rgba(0,0,0, .9), 
                      rgba(0,0,0, .98)),
-                     url("../resources/img/home-img.jpeg");
+                     url("https://romainnm.github.io/restaurant-page/resources/img/home-img.jpeg");
     background-size: cover;
     color: #fff;
     display: flex;
